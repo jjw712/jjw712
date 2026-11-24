@@ -9,6 +9,7 @@
 
 | 프로젝트 | 담당 역할과 핵심 구현 |
 | --- | --- |
+| **[AutoAdvisor](https://github.com/Capstone-last-dance/AutoAdvisor)**<br>국내 주식 위험 판단 보조 | **5인 캡스톤 · 팀장/PM**<br>급락 위험 모델 탐색, 공시·뉴스 피처, 공시 근거 검증.<br>[개인 모델 실험](https://github.com/Capstone-last-dance/AutoAdvisor/tree/fc27fe884546180b24ab856b1736254019d335f8/reports/20261119_PM_gate_pair32) · [공시 RAG 구현](https://github.com/Capstone-last-dance/AutoAdvisor/pull/71) |
 | **[FitFind](https://github.com/oh130/fit-find)**<br>개인화 패션 추천 | **5인 팀 · 추천 모델 담당**<br>Two-Tower → Ranking → Re-ranking·MAB, 추천 API·세션 연동.<br>프로젝트 평가 **Recall@300 0.6029 / NDCG@50 0.1772** |
 | **[LG Aimers](https://github.com/jjw712/lg-aimers-portfolio)**<br>확률 예측·검증 | **팀 프로젝트 · 개인 모델링·검증·앙상블 설계**<br>시간순 검증, OOF 블렌딩, 행 독립성 검사.<br>**팀 최종 165위 · 상위 약 15%**, 개인 기여와 팀 성과 구분 |
 | **[아이디어 조사 서비스](https://github.com/jjw712/CSE4181-SW-MVP)**<br>생성형 AI·데이터 연동 | **2인 프로젝트 · 핵심 서비스 구현**<br>외부 자료 수집·정규화 → Gemini 요약 → 리포트 API·React 화면.<br>출처 연결, 미확인 정보 분리, LLM 실패 시 fallback |
@@ -23,5 +24,3 @@
 **Data & AI** · Python, PyTorch, scikit-learn, Pandas, NumPy, Gemini API  
 **Service** · FastAPI, Redis, React, TypeScript, Docker, Cloudflare Workers  
 **Systems & Development** · C, C++, Git, GitHub Actions
-
-현재는 뉴스·공시를 근거로 답하는 **Agentic RAG 프로젝트**를 진행하고 있습니다.
